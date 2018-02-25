@@ -22,8 +22,6 @@
 # definition file).
 #
 
-$(call inherit-product, vendor/oneplus/msm8998-common/msm8998-common-vendor.mk)
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
@@ -180,7 +178,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilts/lib64/libopbaselib.so:system/lib64/libopbaselib.so \
     $(LOCAL_PATH)/prebuilts/lib64/libopcamera.so:system/lib64/libopcamera.so \
     $(LOCAL_PATH)/prebuilts/lib64/libopcameralib.so:system/lib64/libopcameralib.so \
-    $(LOCAL_PATH)/prebuilts/lib64/libRoadLineRebuildAPI.so:system/lib64/libRoadLineRebuildAPI.so
+    $(LOCAL_PATH)/prebuilts/lib64/libRoadLineRebuildAPI.so:system/lib64/libRoadLineRebuildAPI.so \
+    $(LOCAL_PATH)/prebuilts/vendor/lib/libmmcamera2_mct.so:system/vendor/lib/libmmcamera2_mct.so \
+    $(LOCAL_PATH)/prebuilts/vendor/lib/libmmcamera_imx371.so:system/vendor/lib/libmmcamera_imx371.so
 
 # Display
 PRODUCT_PACKAGES += \
@@ -471,6 +471,7 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)
+$(call inherit-product, vendor/oneplus/msm8998-common/msm8998-common-vendor.mk)
 
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk
