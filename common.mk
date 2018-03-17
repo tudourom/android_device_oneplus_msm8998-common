@@ -183,25 +183,13 @@ PRODUCT_PACKAGES += \
     OnePlusGallery
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilts/lib/libGNaviData.so:system/lib/libGNaviData.so \
-    $(LOCAL_PATH)/prebuilts/lib/libGNaviMap.so:system/lib/libGNaviMap.so \
-    $(LOCAL_PATH)/prebuilts/lib/libGNaviMapex.so:system/lib/libGNaviMapex.so \
-    $(LOCAL_PATH)/prebuilts/lib/libGNaviSearch.so:system/lib/libGNaviSearch.so \
-    $(LOCAL_PATH)/prebuilts/lib/libGNaviUtils.so:system/lib/libGNaviUtils.so \
     $(LOCAL_PATH)/prebuilts/lib/libopbaselib.so:system/lib/libopbaselib.so \
     $(LOCAL_PATH)/prebuilts/lib/libopcamera.so:system/lib/libopcamera.so \
     $(LOCAL_PATH)/prebuilts/lib/libopcameralib.so:system/lib/libopcameralib.so \
-    $(LOCAL_PATH)/prebuilts/lib/libRoadLineRebuildAPI.so:system/lib/libRoadLineRebuildAPI.so \
     $(LOCAL_PATH)/prebuilts/lib64/libfilter-sdk.so:system/lib64/libfilter-sdk.so \
-    $(LOCAL_PATH)/prebuilts/lib64/libGNaviData.so:system/lib64/libGNaviData.so \
-    $(LOCAL_PATH)/prebuilts/lib64/libGNaviMap.so:system/lib64/libGNaviMap.so \
-    $(LOCAL_PATH)/prebuilts/lib64/libGNaviMapex.so:system/lib64/libGNaviMapex.so \
-    $(LOCAL_PATH)/prebuilts/lib64/libGNaviSearch.so:system/lib64/libGNaviSearch.so \
-    $(LOCAL_PATH)/prebuilts/lib64/libGNaviUtils.so:system/lib64/libGNaviUtils.so \
     $(LOCAL_PATH)/prebuilts/lib64/libopbaselib.so:system/lib64/libopbaselib.so \
     $(LOCAL_PATH)/prebuilts/lib64/libopcamera.so:system/lib64/libopcamera.so \
     $(LOCAL_PATH)/prebuilts/lib64/libopcameralib.so:system/lib64/libopcameralib.so \
-    $(LOCAL_PATH)/prebuilts/lib64/libRoadLineRebuildAPI.so:system/lib64/libRoadLineRebuildAPI.so \
     $(LOCAL_PATH)/prebuilts/vendor/lib/libmmcamera2_mct.so:system/vendor/lib/libmmcamera2_mct.so \
     $(LOCAL_PATH)/prebuilts/vendor/lib/libmmcamera_imx371.so:system/vendor/lib/libmmcamera_imx371.so
 
